@@ -1,0 +1,26 @@
+.footer{
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.logoFooter{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+
+    margin: 0 auto 10px auto;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.redes img{
+    width: 40px;
+   
+}

@@ -1,0 +1,85 @@
+.containerElegirnos {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color:rgb(248 250 252 / var(--tw-bg-opacity, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.Containerimg {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 1rem !important;
+box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.Containerimg img {
+    
+    margin-right: auto;
+    margin-left: auto;
+    width: 120px;
+}
+
+.ContainerimgLogo {
+  width: 200px;          /* tamaño del sello */
+  height: 200px;
+  border-radius: 50%;    /* lo hace circular */
+  border: 3px solid #1D4ED8; /* color y grosor del borde */
+  overflow: hidden;      /* recorta la imagen dentro del círculo */
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin: 0 auto;
+  margin-top: 100px;
+    position: relative;
+}
+
+.ContainerimgLogo img {
+  width: 100%;            /* ajusta el tamaño de la imagen dentro del sello */
+  height: auto;
+  border-radius: 100%;
+
+}
+
+.parrafoNosotros {
+    text-align: center;
+    margin-bottom: 200px !important;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+
+}
+
+.parallaxNosotros{
+background: url('/img/parallaxNosotros.jpg');  
+background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 60vh; /* ajustá la altura según necesites */
+  display: flex;
+  align-items:end;
+  justify-content: left;
+  position: relative;
+  margin-bottom: 220px;
+}
+
+.parallaxOverlay {
+  color: white;
+  text-align: left;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.parallaxOverlay p{
+   font-size: 20px;
+    font-family:apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-style: oblique;
+    font-weight: 700;
+}

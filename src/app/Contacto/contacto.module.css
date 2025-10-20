@@ -1,0 +1,44 @@
+.containerContacto{
+      background-image: url(/img/mapa.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 80px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titleDondeEstamos{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.logowhp{
+    color: #25D366 !important;
+}
+
+.btnwhatsapp:hover {
+  transform: scale(1);
+  color: #1ebe5d;
+}
+
+.btnwhatsapp {
+  background-color: #0d6efd; /* Verde característico de WhatsApp */
+  color: white;
+  font-weight: bold;
+  padding:1px;
+  border-radius: 50px; /* Botón redondeado */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+

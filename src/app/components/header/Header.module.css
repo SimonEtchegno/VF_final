@@ -1,0 +1,41 @@
+
+.imgParallax {
+  background: url('/img/imgParallax.jpeg');
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  width: 100%;
+}
+
+
+.imgParallaxNosotros {
+  background: url('/img/nosotros.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+  width: 100%;
+}
+
+.imgParallaxServicios {
+    background: url('/img/servicios.jpg');
+    height: 870px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imgParallaxContacto{
+    background: url('/img/contacto.jpg');
+    height: 870px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

@@ -83,3 +83,18 @@ background-attachment: fixed;
     font-style: oblique;
     font-weight: 700;
 }
+
+/* Celular */
+@media (max-width: 480px) {
+  .parallaxNosotros {
+    height: 40vh !important;
+    padding: 20px !important;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 991px) {
+  .parallaxNosotros {
+    height: 40vh !important;
+  }
+}

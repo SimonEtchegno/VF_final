@@ -13,7 +13,7 @@
 }
 
 .titleDondeEstamos{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
     margin-top: 20px;
     font-weight: bold;
     text-align: center;

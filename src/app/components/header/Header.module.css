@@ -39,3 +39,105 @@
     background-size: cover;
     position: relative;
 }
+
+
+/* Celular */
+@media (max-width: 480px) {
+  
+.imgParallax {
+  background: url('/img/imgParallax.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px !important;
+  width: 100%;
+}
+.imgParallaxNosotros {
+  background: url('/img/nosotros.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+
+
+
+.imgParallaxServicios {
+    background: url('/img/servicios.jpg');
+    height: 870px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.imgParallaxContacto{
+    background: url('/img/contacto.jpg');
+    height: 870px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 991px) {
+  
+.imgParallax {
+  background: url('/img/imgParallax.jpeg');
+  background-attachment: fixed;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  transform: translate(0px, 0px); /* X = 20px, Y = 30px */
+
+}
+
+.imgParallaxNosotros {
+  background: url('/img/nosotros.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  transform: translate(0px, 0px); /* X = 20px, Y = 30px */
+
+}
+
+.imgParallaxServicios {
+    background: url('/img/servicios.jpg');
+    height: 600px;
+    background-attachment: fixed;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    transform: translate(0px, 0px); /* X = 20px, Y = 30px */
+    
+}
+
+.imgParallaxContacto{
+    background: url('/img/contacto.jpg');
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transform: translate(0px, 0px); /* X = 20px, Y = 30px */
+
+}
+
+
+}

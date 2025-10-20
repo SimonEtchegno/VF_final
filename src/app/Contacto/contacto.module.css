@@ -42,3 +42,8 @@
   justify-content: center;
 }
 
+@media (min-width: 400px) and (max-width: 600px) {
+  .mapa {
+    width: 100% !important;
+  }
+}

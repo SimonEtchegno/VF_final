@@ -116,7 +116,7 @@ export default function Contacto_() {
               <div className="col-12">
                 <h2 className={stylesContacto.titleDondeEstamos}>¿Dónde Estamos?</h2>
                 <hr className="divider" />
-                <iframe
+                <iframe  className={stylesContacto.mapa}
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.9535208581347!2d-62.26515322321646!3d-38.71887608630892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda34d2add1675%3A0x992fa4544367f154!2sBelgrano%2093%2C%20B8000%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1757455338774!5m2!1ses!2sar"
                   width="1300"
                   height="350"

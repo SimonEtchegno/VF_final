@@ -41,56 +41,9 @@
 }
 
 
-/* Celular */
-@media (max-width: 480px) {
-  
-.imgParallax {
-  background: url('/img/imgParallax.jpeg');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px !important;
-  width: 100%;
-}
-.imgParallaxNosotros {
-  background: url('/img/nosotros.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  width: 100%;
-}
-
-
-
-
-.imgParallaxServicios {
-    background: url('/img/servicios.jpg');
-    height: 870px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.imgParallaxContacto{
-    background: url('/img/contacto.jpg');
-    height: 870px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-
-}
 
 /* Tablet */
-@media (min-width: 481px) and (max-width: 991px) {
+@media (min-width: 400px) and (max-width: 600px) {
   
 .imgParallax {
   background: url('/img/imgParallax.jpeg');

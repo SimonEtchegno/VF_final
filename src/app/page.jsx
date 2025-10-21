@@ -15,7 +15,7 @@ export default function Home() {
           {/* Texto */}
           <div >
             <p className="text-blue-600 uppercase font-medium mb-2">
-              TU PC TU MEJOR AMIGAAA
+              TU PC TU MEJOR AMIGA
             </p>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               Soluciones expertas para un rendimiento óptimo

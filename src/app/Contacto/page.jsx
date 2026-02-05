@@ -37,11 +37,15 @@ export default function Contacto_() {
 
     // 2) Si guardó OK, armar WhatsApp
     const serviciosMap = {
-      reparacion: "Reparación de PCs",
-      mantenimiento: "Mantenimiento",
-      software: "Instalación de Software",
-      cambio_bateria: "Cambio de Batería",
-    };
+    mantenimiento: "Mantenimiento y optimización – desde $35.000",
+    pc_lenta: "PC lenta / bajo rendimiento – desde $30.000",
+    formateo: "Formateo e instalación de Windows – desde $50.000",
+    virus: "Eliminación de virus – desde $30.000",
+    programas: "Instalación de programas – desde $20.000",
+    backup: "Backup / recuperación de datos – desde $45.000",
+    red: "Problemas de internet / red – desde $30.000",
+    soporte: "Soporte técnico general – desde $30.000",
+};
 
     const servicioLabel = serviciosMap[payload.service] ?? payload.service;
 
@@ -110,11 +114,14 @@ export default function Contacto_() {
 
                 <div className="form-floating mb-3">
                   <select className="form-select" id="service" name="service" required>
-                    <option value="">Seleccione un servicio</option>
-                    <option value="reparacion">Reparación de PCs - $1000</option>
-                    <option value="mantenimiento">Mantenimiento - $500</option>
-                    <option value="software">Instalación de Software - $800</option>
-                    <option value="cambio_bateria">Cambio de Batería - $600</option>
+                    <option value="mantenimiento">Mantenimiento y optimización – desde $35.000</option>
+                    <option value="pc_lenta">PC lenta / bajo rendimiento – desde $30.000</option>
+                    <option value="formateo">Formateo e instalación de Windows – desde $50.000</option>
+                    <option value="virus">Eliminación de virus – desde $30.000</option>
+                    <option value="programas">Instalación de programas – desde $20.000</option>
+                    <option value="backup">Backup y recuperación de datos – desde $25.000</option>
+                    <option value="red">Problemas de internet / red – desde $20.000</option>
+                    <option value="soporte">Soporte técnico general</option>
                   </select>
                   <label htmlFor="service">Servicio requerido</label>
                 </div>
@@ -134,11 +141,16 @@ export default function Contacto_() {
                 <div className="form-floating mb-3">
                   <select className="form-select" id="timeSlot" name="timeSlot" required>
                     <option value="">Elegí un horario</option>
-                    <option value="10:00">10:00</option>
-                    <option value="11:30">11:30</option>
                     <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="16:00">16:00</option>
                     <option value="16:30">16:30</option>
+                    <option value="17:00">17:00</option>
+                    <option value="17:30">17:30</option>
                     <option value="18:00">18:00</option>
+                    <option value="18:30">18:30</option>
+                    <option value="19:00">19:00</option>
+                    <option value="19:30">19:30</option>
                   </select>
                   <label htmlFor="timeSlot">Horario</label>
                 </div>

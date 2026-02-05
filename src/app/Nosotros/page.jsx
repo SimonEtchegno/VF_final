@@ -156,7 +156,7 @@ export default function Nosotros_() {
                   <a href="#" className="text-dark mx-2">
                     <i className="bi bi-instagram"></i>
                   </a>
-                  <a href="#" className="text-dark mx-2">
+                  <a href="https://www.linkedin.com/in/sim%C3%B3n-etchegno-465a21213/" className="text-dark mx-2">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>

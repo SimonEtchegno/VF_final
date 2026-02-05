@@ -28,7 +28,7 @@ export default function Servicios() {
   <div className="container">
     <div className="row g-4 align-items-stretch">
       {/* Card 1 */}
-      <div className="col-md-4 d-flex ">
+      <div className="col-xs-12 col-md-6 col-lg-4 d-flex ">
         <div className=" card p-4 rounded shadow bg-light flex-fill">
           <img
             src="/img/iconAntiVirus.png"
@@ -43,7 +43,7 @@ export default function Servicios() {
       </div>
 
       {/* Card 2 */}
-      <div className="col-md-4 d-flex ">
+      <div className="col-xs-12 col-md-6 col-lg-4 d-flex ">
         <div className=" card p-4 rounded shadow bg-light flex-fill">
           <img
             src="/img/iconHardware.png"
@@ -58,7 +58,7 @@ export default function Servicios() {
       </div>
 
       {/* Card 3 */}
-      <div className="col-md-4 d-flex ">
+      <div className="col-xs-12 col-md-6 col-lg-4 d-flex ">
         <div className="card p-4 rounded shadow bg-light flex-fill card">
           <img
             src="/img/iconDatos.png"
@@ -72,7 +72,7 @@ export default function Servicios() {
         </div>
       </div>
 
-       <div className="col-md-4 d-flex">
+       <div className="col-xs-12 col-md-6 col-lg-4 d-flex">
         <div className="card p-4 rounded shadow bg-light flex-fill">
           <img
             src="/img/iconRep.png"
@@ -85,7 +85,7 @@ export default function Servicios() {
         </div>
       </div>
 
-       <div className="col-md-4 d-flex">
+       <div className="col-xs-12 col-md-6 col-lg-4 d-flex">
         <div className="card p-4 rounded shadow bg-light flex-fill">
           <img
             src="/img/iconSistema.png"
@@ -99,7 +99,7 @@ export default function Servicios() {
         </div>
       </div>
 
-       <div className="col-md-4 d-flex">
+       <div className="col-xs-12 col-md-6 col-lg-4 d-flex">
         <div className="card p-4 rounded shadow bg-light flex-fill">
           <img
             src="/img/iconOptimizacion.png"
@@ -135,7 +135,7 @@ export default function Servicios() {
       </p>
     </div>
 
-    <div className="col-12 col-md-4 d-flex flex-column align-items-center text-center">
+    <div className="col-xs-12 col-md-6 col-lg-4 d-flex flex-column align-items-center text-center">
       <img
         src="/img/2.svg"
         alt="Teléfono"
@@ -148,7 +148,7 @@ export default function Servicios() {
       </p>
     </div>
 
-    <div className="col-12 col-md-4 d-flex flex-column align-items-center text-center">
+    <div className="col-xs-12 col-md-6 col-lg-4 d-flex flex-column align-items-center text-center">
       <img
         src="/img/3.svg"
         alt="Teléfono"
